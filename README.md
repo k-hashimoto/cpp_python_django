@@ -7,7 +7,7 @@ testserver/myapp/pythonWapper.cppに実装してあるadd()をdjangoのviewか�
 ## 使い方
 
 testserver/myappに入ってmakeを実行する。pythonWapper.cppを.soにコンパイルする。
-成功すればpythonWapper.soがtestserver/myappにできる。
+成功すればpythonWapper.soがtestserver/myappにできる。testserver/myapp/views.pyでpythonWapper.soのadd()を呼んでいる。
 
 testserverに移動してrunserverスクリプトを実行すればサーバーが起動する。ブラウザから
 
